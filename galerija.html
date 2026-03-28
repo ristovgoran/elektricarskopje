@@ -17,11 +17,10 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="inner-page">
-  <a class="skip-link" href="#main-content">Скокни до содржина</a>
 
   <header class="site-header" data-header>
     <div class="container header-inner">
-      <a class="brand" href="/" aria-label="ES Electric почетна">
+      <a class="brand" href="index.html" aria-label="ES Electric почетна">
         <span class="brand-mark">
           <img src="images/eselectriclogo.png?v=2" alt="ES Electric лого" width="234" height="234">
         </span>
@@ -33,8 +32,12 @@
         <span class="sr-only">Отвори мени</span>
       </button>
       <nav class="site-nav" id="site-nav" data-nav>
-        <a href="domashni-uslugi.html">Домашни услуги</a>
-        <a href="komercijalni-uslugi.html">Комерцијални услуги</a>
+        <div class="nav-item has-dropdown">
+          <a href="uslugi.html">Услуги</a>
+          <div class="sub-nav">
+            <a href="uslugi/promena-na-osiguraci.html">Промена на осигурачи</a>
+          </div>
+        </div>
         <a href="galerija.html">Галерија</a>
         <a href="kontakt.html">Контакт</a>
       </nav>
@@ -101,7 +104,7 @@
               </div>
             </div>
 
-            <input id="email" name="email" type="email" autocomplete="email" placeholder="Е-пошта" aria-label="Е-пошта" required>
+            <input id="location" name="location" type="text" autocomplete="street-address" placeholder="Локација" aria-label="Локација" required>
 
             <textarea id="message" name="message" rows="6" placeholder="Краток опис на проблемот" aria-label="Краток опис на проблемот" required></textarea>
 
@@ -116,12 +119,11 @@
     <div class="container footer-grid">
       <div class="footer-col">
         <p class="footer-brand">ES Electric</p>
-        <p>Електричар Скопје за домашни и комерцијални интервенции.</p>
+        <p>Електричар Скопје за домашни електричарски интервенции.</p>
       </div>
       <div class="footer-col">
         <p class="footer-title">Брзи Линкови</p>
-        <a href="domashni-uslugi.html">Домашни услуги</a>
-        <a href="komercijalni-uslugi.html">Комерцијални услуги</a>
+        <a href="uslugi.html">Услуги</a>
         <a href="galerija.html">Галерија</a>
         <a href="kontakt.html">Контакт</a>
       </div>

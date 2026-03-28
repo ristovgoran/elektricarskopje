@@ -38,12 +38,11 @@
   </script>
 </head>
 <body>
-  <a class="skip-link" href="#main-content">Скокни до содржина</a>
 
   <!-- Sticky header: transparent on hero, solid after scroll -->
   <header class="site-header" data-header>
     <div class="container header-inner">
-      <a class="brand" href="/" aria-label="ES Electric почетна">
+      <a class="brand" href="index.html" aria-label="ES Electric почетна">
         <span class="brand-mark">
           <img src="images/eselectriclogo.png" alt="ES Electric лого" width="234" height="234">
         </span>
@@ -57,8 +56,12 @@
       </button>
 
       <nav class="site-nav" id="site-nav" data-nav>
-        <a href="domashni-uslugi.html">Домашни услуги</a>
-        <a href="komercijalni-uslugi.html">Комерцијални услуги</a>
+        <div class="nav-item has-dropdown">
+          <a href="uslugi.html">Услуги</a>
+          <div class="sub-nav">
+            <a href="uslugi/promena-na-osiguraci.html">Промена на осигурачи</a>
+          </div>
+        </div>
         <a href="galerija.html">Галерија</a>
         <a href="kontakt.html">Контакт</a>
       </nav>
@@ -91,7 +94,7 @@
                 <input type="text" name="hero-name" placeholder="Име" aria-label="Име">
                 <input type="tel" name="hero-phone" placeholder="Телефон" aria-label="Телефон">
               </div>
-              <input type="email" name="hero-email" placeholder="Е-пошта" aria-label="Е-пошта">
+              <input type="text" name="hero-location" autocomplete="street-address" placeholder="Локација" aria-label="Локација">
               <textarea name="hero-description" rows="4" placeholder="Краток опис на проблемот" aria-label="Краток опис на проблемот"></textarea>
               <button class="button button-call button-block" type="submit">ЗАКАЖИ ИНТЕРВЕНЦИЈА</button>
             </form>
@@ -311,12 +314,12 @@
             <p>Ако проблемот е итен, јавувањето е најбрзата опција.</p>
           </details>
           <details>
-            <summary>Дали работите и надвор од редовно работно време?</summary>
+            <summary>Дали Електричар Скопје работи и надвор од редовно работно време?</summary>
             <p>Да, итната услуга е достапна 24/7.</p>
           </details>
           <details>
             <summary>Во кои делови од Скопје работите?</summary>
-            <p>Скопје, со фокус на Центар, Карпош, Аеродром и Кисела Вода.</p>
+            <p>Работиме во сите општини во Скопје и околните населби.</p>
           </details>
           <details>
             <summary>Што да напишам во формата?</summary>
@@ -330,7 +333,7 @@
     <section class="contact section" id="contact">
       <div class="container">
         <div class="contact-shell">
-          <h2>Побарај понуда за електричарски услуги</h2>
+          <h2>Побарај понуда за електричарски услуги во Скопје</h2>
           <p class="contact-intro">Пополнете ја формата и нашиот тим од Elektricar Skopje ќе ве контактира во најбрз можен рок.</p>
 
           <form class="contact-form contact-form-modern" action="https://formsubmit.co/goranristov80@yahoo.com" method="post">
@@ -346,7 +349,7 @@
               </div>
             </div>
 
-            <input id="email" name="email" type="email" autocomplete="email" placeholder="Е-пошта" aria-label="Е-пошта" required>
+            <input id="location" name="location" type="text" autocomplete="street-address" placeholder="Локација" aria-label="Локација" required>
 
             <textarea id="message" name="message" rows="6" placeholder="Краток опис на проблемот" aria-label="Краток опис на проблемот" required></textarea>
 
@@ -362,12 +365,11 @@
     <div class="container footer-grid">
       <div class="footer-col">
         <p class="footer-brand">ES Electric</p>
-        <p>Електричар Скопје за домашни и комерцијални интервенции.</p>
+        <p>Електричар Скопје за домашни електричарски интервенции.</p>
       </div>
       <div class="footer-col">
         <p class="footer-title">Брзи Линкови</p>
-        <a href="domashni-uslugi.html">Домашни услуги</a>
-        <a href="komercijalni-uslugi.html">Комерцијални услуги</a>
+        <a href="uslugi.html">Услуги</a>
         <a href="galerija.html">Галерија</a>
         <a href="kontakt.html">Контакт</a>
       </div>
