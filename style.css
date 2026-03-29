@@ -1287,14 +1287,21 @@ body.inner-page .page-hero {
   .has-dropdown.is-open .sub-nav {
     opacity: 1;
     pointer-events: auto;
-    max-height: 220px;
-    padding: 0.25rem 0.4rem 0.35rem 0.8rem;
+    max-height: 560px;
+    padding: 0.35rem 0.4rem 0.5rem 0.8rem;
   }
 
   .sub-nav a {
+    display: block;
     padding: 0.75rem 0.9rem;
     border-radius: 12px;
     background: rgba(159, 201, 255, 0.1);
+    line-height: 1.3;
+    margin-bottom: 0.4rem;
+  }
+
+  .sub-nav a:last-child {
+    margin-bottom: 0;
   }
 
   .has-dropdown.is-open > a::after {
