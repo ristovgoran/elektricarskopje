@@ -26,14 +26,38 @@
   <link rel="stylesheet" href="style.css">
   <script type="application/ld+json">
   {
-   "@context": "https://schema.org",
-   "@type": "Service",
-   "serviceType": "Electrical services",
-   "areaServed": "Skopje",
-   "provider": {
-     "@type": "Electrician",
-     "name": "Električar Skopje"
-   }
+    "@context": "https://schema.org",
+    "@type": "Electrician",
+    "name": "Električar Skopje",
+    "url": "https://elektricarskopje.mk/",
+    "telephone": "+38970757641",
+    "image": "https://elektricarskopje.mk/images/elektricarskopjehero.png",
+    "priceRange": "$$",
+    "areaServed": {
+      "@type": "City",
+      "name": "Skopje"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Skopje",
+      "addressCountry": "MK"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    ]
   }
   </script>
 </head>
