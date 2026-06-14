@@ -1147,6 +1147,35 @@ body.inner-page .page-hero {
   margin: 0;
 }
 
+.partner-content {
+  max-width: 760px;
+}
+
+.partner-content h2 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(1.55rem, 3vw, 2.4rem);
+}
+
+.partner-content p {
+  margin: 0 0 1rem;
+  color: #2f3b55;
+  font-size: 1.04rem;
+}
+
+.partner-content a {
+  color: var(--accent);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: #a9c8f7;
+  text-underline-offset: 0.18em;
+}
+
+.partner-content a:hover,
+.partner-content a:focus-visible {
+  color: var(--accent-dark);
+  text-decoration-color: var(--accent-dark);
+}
+
 .site-footer {
   padding: 2rem 0 6rem;
   background: #07132f;
